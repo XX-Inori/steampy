@@ -21,7 +21,7 @@ module.exports = {
     },
     proxy: {
       '/': {
-        target: 'http://dev.pmp.com.cn:19095',
+        target: 'https://www.steampy.com/xboot',
         changeOrigin: true,
         ws: false
       }
